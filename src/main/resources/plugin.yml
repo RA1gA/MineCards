@@ -1,0 +1,18 @@
+name: ${project.artifactId}
+version: ${project.version}
+author: RA1gA
+website: https://twitter.com/raiga2525
+main: jp.mc.ra1ga.minecards.MineCards
+
+commands:
+  mcard:
+
+permissions:
+  minecards.command:
+    default: true
+  minecards.command.mcard:
+    default: true
+  minecards.command.mcard.give:
+    default: op
+  minecards.command.mcard.help:
+    default: op
