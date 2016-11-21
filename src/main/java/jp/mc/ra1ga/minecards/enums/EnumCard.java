@@ -12,7 +12,7 @@ public enum EnumCard {
 	HORSE("MM-6", "Horse", (short) 6, EnumRarity.NORMAL),
 	SPIDER("MM-7", "Spider", (short) 7, EnumRarity.NORMAL),
 	SLIME("MM-8", "Slime", (short) 8, EnumRarity.NORMAL),
-	STIVE("MM-13", "Stive", (short) 13, EnumRarity.RARE),
+	STEVE("MM-13", "Steve", (short) 13, EnumRarity.RARE),
 	;
 	private EnumCard(String id, String name, short damage, EnumRarity rare){
 		this.id = id;
